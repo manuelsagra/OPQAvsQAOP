@@ -1,0 +1,3 @@
+The project needs to be compiled with CPCtelera version 1.5 (right now, the development branch in https://github.com/lronaldo/cpctelera/tree/development).
+
+After having this version of CPCtelera installed on your machine, you just need to execute "make" in this directory to generate Tape, Disk and Snapshot files.
