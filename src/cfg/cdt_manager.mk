@@ -145,7 +145,7 @@ $(eval $(call CDTMAN, SET_FILENAME, OPQA vs. QAOP))
 ## ##  that will be finally loaded and executed. Loader will display the     ##
 ## ##  name "JU FIGHTERS" when loading after typing in RUN"                  ##
 ## ##                                                                        ##
-SCR_PAL=0 13 26 15 6 3 12 24 25 16 4 5 7 19 9 1
+SCR_PAL=0 13 24 1 2 11 14 3 6 15 7 4 5 26 10 21  
 $(eval $(call CDTMAN, SET_MINILOAD_MODE       , 0               ))       
 $(eval $(call CDTMAN, SET_MINILOAD_PALETTE_FW , 0, $(SCR_PAL)   ))   
 $(eval $(call CDTMAN, GEN_MINILOADER          , img/loading.png )) 

@@ -27,6 +27,7 @@
 
 #define KEY_DELAY_FIRST         8
 #define KEY_DELAY_REPEAT        3
+#define KEY_DELAY_FALL_REPEAT   255
 
 // Game constants
 #define CHARACTERS              16

@@ -808,7 +808,7 @@ u8 opqa_checkPlayer(u8 player) {
                 PLAYER_LANDBLOCK
                 u->block = 1;
                 p->current_cycle = 0;
-                kd[KEY_UP] = !(*kr & (1 << KEY_UP)) ? KEY_DELAY_FIRST : KEY_DELAY_REPEAT;
+                kd[KEY_UP] = !(*kr & (1 << KEY_UP)) ? KEY_DELAY_FIRST : KEY_DELAY_FALL_REPEAT;
                 *kr |= (1 << KEY_UP);
             } else {
                 kd[KEY_UP]--;
